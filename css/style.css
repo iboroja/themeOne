@@ -11,6 +11,7 @@
 body, html{
 	margin: 0;
 	padding: 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 /*
@@ -22,20 +23,9 @@ header{
 	background-image: url("../img/tree2.jpg");
 	height: 100vh;
 	background-size: cover;
-	margin-bottom: 50px;
 	min-height: 630px;
 }
-p{
-	width: 600px;
-	margin:0 auto 20px;
-}
-header h1, h3{
-	margin: 0 ;
-	padding: 0;
-	text-align: center;
-	top: 38%;
-	position: relative;
-}
+
 header h1{
 	font-size: 60px;
 	text-transform: uppercase;
@@ -43,11 +33,21 @@ header h1{
 	font-weight: bold;
 	padding-bottom: 10px;
 	letter-spacing: 2px;
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+	top: 38%;
+	position: relative;
 }
 header h3{
 	font-size: 30px;
 	color: yellow;
 	letter-spacing: 1px;
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+	top: 38%;
+	position: relative;
 }
 header .headerButtons{
 	position: relative;
@@ -84,5 +84,98 @@ header .btn-info:hover{
 header .btn{
 	letter-spacing: 0.5px;
 }
+/*
+******************************
+		
+******************************
+*/
+.firstSection h3{
+	font-size: 36px;
+	margin-bottom: 30px;
+	line-height: 40px;
+	font-weight: 300;
+	color:#292929;
+	text-align: center;
+}
+.firstSection {
+	width: 800px;
+	padding: 180px 0;
+}
+.firstSection p{
+	font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:#666;
+    text-align: center;
+}
+
+.secondSection{
+	background: #f8f8f8;
+}
+.secondSection h3{
+	text-align: center;
+	font-size: 36px;
+	padding-top: 160px;
+	font-weight: 300;
+	color:#292929;
+}
+.secondSection h4{
+	color:#292929;
+	text-align: center;
+	font-size: 16px;
+	text-transform: uppercase;
+	padding-top: 7px;
+	letter-spacing:1px;
+}
+.secondSection p{
+	text-align: center;
+	margin: 0 auto;
+	width: 400px;
+	padding-top: 10px;
+	color: #666;
+	font-weight: 400;
+    line-height: 28px;
+}
+.secondSection .imgGallery{
+	padding: 60px 0;
+
+}
+.secondSection img{
+	padding: 0 2px 5px 0;
+}
+.thirdSection .jumbotron{
+	background-image: url("../img/tree2.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 450px;
+}
+.jumbotronText h3{
+	font-size: 54px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	padding-top: 25px;
+}
+.fourthSection{
+	height: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
