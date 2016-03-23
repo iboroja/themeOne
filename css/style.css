@@ -1,0 +1,88 @@
+/*
+                          Theme Three
+
+    Author: Igor Boroja
+    Licence: Feel Free to use in commercial and non-commercial projects.
+    Images: https://pixabay.com         https://pixabay.com/en/service/faq/
+	Framework: Bootstrap
+	Icons: https://fortawesome.github.io/Font-Awesome/
+*/
+
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+/*
+******************************
+		HEADER
+******************************
+*/
+header{
+	background-image: url("../img/tree2.jpg");
+	height: 100vh;
+	background-size: cover;
+	margin-bottom: 50px;
+	min-height: 630px;
+}
+p{
+	width: 600px;
+	margin:0 auto 20px;
+}
+header h1, h3{
+	margin: 0 ;
+	padding: 0;
+	text-align: center;
+	top: 38%;
+	position: relative;
+}
+header h1{
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #FFF;
+	font-weight: bold;
+	padding-bottom: 10px;
+	letter-spacing: 2px;
+}
+header h3{
+	font-size: 30px;
+	color: yellow;
+	letter-spacing: 1px;
+}
+header .headerButtons{
+	position: relative;
+	display:block;
+	margin: auto;
+	text-align: center;
+	top: 40%;
+	color: #fff;
+}
+header .btn-warning{
+	background: yellow;
+	color: #000;
+	font-weight: bold;
+	height: 45px;
+	margin-right:7px;
+	border: 1px solid yellow;
+}
+header .btn-info{
+	font-weight: bold;
+	height: 45px;
+	background: transparent;
+	border: 1px solid white; 
+}
+header .btn-warning:hover{
+	background: #f1c40f;
+	border: 1px solid #f1c40f;
+	color: #000;
+}
+header .btn-info:hover{
+	background: transparent;
+	border: 1px solid #f2f2f2;
+	color: #f2f2f2;
+}
+header .btn{
+	letter-spacing: 0.5px;
+}
+
+
