@@ -86,7 +86,7 @@ header .btn{
 }
 /*
 ******************************
-		
+		SECTIONS
 ******************************
 */
 .firstSection h3{
@@ -98,7 +98,7 @@ header .btn{
 	text-align: center;
 }
 .firstSection {
-	width: 800px;
+	width: 80%;
 	padding: 180px 0;
 }
 .firstSection p{
@@ -138,7 +138,7 @@ header .btn{
 }
 .secondSection .imgGallery{
 	padding: 60px 0;
-
+	padding-left: 40px;
 }
 .secondSection img{
 	padding: 0 2px 5px 0;
@@ -148,6 +148,7 @@ header .btn{
 	background-size: cover;
 	background-attachment: fixed;
 	min-height: 450px;
+	margin-bottom: 0;
 }
 .jumbotronText h3{
 	font-size: 54px;
@@ -157,25 +158,80 @@ header .btn{
 	letter-spacing: 2px;
 	padding-top: 25px;
 }
+
+.contactUs{
+	text-align: center;
+	margin: 0 auto;
+}
+.contactUs h3{
+	padding-top: 90px;
+	font-size: 36px;
+    font-weight: 300;
+    color: #292929;
+    margin-bottom: 0;
+    padding-left: 20px;
+}
+.contactUs h4{
+	font-size:16px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-top: 0;
+	padding-left: 20px;
+}
+.contactUs p{
+	color: #666;
+    font-weight: 400;
+    line-height: 28px;
+    padding-left: 20px;
+}
 .fourthSection{
-	height: 500px;
+	background: #f8f8f8;
+}
+.fourthSection .row{
+	padding: 0 16% 60px 16%;
+}
+.fourthSection h3{
+	text-align: center;
+	font-size: 36px;
+	padding-top: 160px;
+	font-weight: 300;
+	color:#292929;
+	margin-bottom: 60px;
+	margin-top: 0;
+}
+.fourthSection .fa{
+	display: block;
+	text-align: center;
+	margin-bottom: 60px;
+	color: #292929;
+}
+.fourthSection p{
+	font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666;
+    padding-left: 25px;
+    padding-bottom: 60px;
+}
+footer{
+	background: #292929;
+	width: 100%;
+	color: #fff;
+	margin-top: 90px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer p{
+	margin-top: 12px;
+	font-size: 12px;
+}
+footer .fa{
+	font-size: 16px;
+	padding-right: 12px;
+}
+footer a {
+	color: #fff;
+	padding-right: 12px;
+}
+footer a:hover{
+	color:#666;
+}
